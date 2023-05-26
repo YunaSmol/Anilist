@@ -3,17 +3,15 @@
   <defs>
     <style>
       .cls-1 {
-        font-family: FRAC-ExtraBold, FRAC;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: .14em;
-      }
-
-      .cls-1, .cls-2 {
         fill: #411c0a;
       }
     </style>
   </defs>
-  <path class="cls-2" d="m40.51,12.48h10.04v10.04h-10.04s0-10.04,0-10.04Zm1.1,8.93h7.82v-7.82h-7.82v7.82Z"/>
-  <text class="cls-1" transform="translate(56.96 22.52)"><tspan x="0" y="0">IDOL</tspan></text>
+  <path class="cls-1" d="m40.51,12.48h10.04v10.04h-10.04v-10.04Zm1.1,8.93h7.82v-7.82h-7.82v7.82Z"/>
+  <g>
+    <path class="cls-1" d="m57.53,22.49v-1.47h2.76v-7.11h-2.76v-1.47h7.01v1.47h-2.76v7.11h2.76v1.47h-7.01Z"/>
+    <path class="cls-1" d="m69.01,22.49v-10.05h5.35l1.86,1.85v6.34l-1.86,1.86h-5.35Zm1.5-1.47h3.22l.99-1.01v-5.11l-.99-.99h-3.22v7.11Z"/>
+    <path class="cls-1" d="m80.49,20.63v-6.34l1.85-1.85h3.49l1.88,1.85v6.34l-1.88,1.86h-3.49l-1.85-1.86Zm1.5-.62l.99,1.01h2.23l.99-1.01v-5.11l-.99-.99h-2.23l-.99.99v5.11Z"/>
+    <path class="cls-1" d="m91.97,22.49v-9.95h1.5v8.48h5.63v1.47h-7.13Z"/>
+  </g>
 </svg>
