@@ -400,3 +400,9 @@ body {
 .nav .link[data-v-1cc2919e]:nth-child(8) {
 	display: none;
 }
+
+@media (min-width: 1540px) {
+	.nav[data-v-1cc2919e] {
+		max-width: 1320px;
+	}
+}
