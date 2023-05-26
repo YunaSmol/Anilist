@@ -302,6 +302,7 @@ body {
 }
 
 .nav .link[data-v-1cc2919e] {
+	position: relative;
 	width: 100%;
 	flex: 1;
 	margin: 0;
@@ -372,6 +373,17 @@ body {
 	transition: var(--transition-0-5);
 }
 
+.nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e] {
+	pointer-events: none;
+}
+.nav .link[data-v-1cc2919e]:after {
+	position: absolute;
+	right: 10px;
+	bottom: -5px;
+	height: 50px;
+	width: 50px;
+}
+
 .nav .link[data-v-1cc2919e]:nth-child(1).router-link-active[data-v-1cc2919e] {
 	background: var(--maika-light);
 }
@@ -398,11 +410,26 @@ body {
 
 .nav .link[data-v-1cc2919e]:nth-child(1):after {
 	content: url(../Images/Blend\ S/Stile/Select\ Sadistic.svg);
-	position: absolute;
-	right: 10px;
-	bottom: -5px;
-	height: 50px;
-	width: 50px;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(2):after {
+	content: url(../Images/Blend\ S/Stile/Select\ Tsundere.svg);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(3):after {
+	content: url(../Images/Blend\ S/Stile/Select\ Imouto.svg);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(4):after {
+	content: url(../Images/Blend\ S/Stile/Select\ Onee-San.svg);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(5):after {
+	content: url(../Images/Blend\ S/Stile/Select\ Idol.svg);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(6):after {
+	content: url(../Images/Blend\ S/Stile/Select\ Service.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(7),
