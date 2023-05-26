@@ -409,27 +409,33 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):after {
-	content: url(../Images/Blend\ S/Stile/Select\ Sadistic.svg);
+	content: "Sadistic" url(../Images/Blend\ S/Stile/Select\ Sadistic.svg);
+	color: var(--maika-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2):after {
-	content: url(../Images/Blend\ S/Stile/Select\ Tsundere.svg);
+	content: "Tsundere" url(../Images/Blend\ S/Stile/Select\ Tsundere.svg);
+	color: var(--kaho-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3):after {
-	content: url(../Images/Blend\ S/Stile/Select\ Imouto.svg);
+	content: "Imouto" url(../Images/Blend\ S/Stile/Select\ Imouto.svg);
+	color: var(--mafuyu-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4):after {
-	content: url(../Images/Blend\ S/Stile/Select\ Onee-San.svg);
+	content: "Onee-San" url(../Images/Blend\ S/Stile/Select\ Onee-San.svg);
+	color: var(--miu-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5):after {
-	content: url(../Images/Blend\ S/Stile/Select\ Idol.svg);
+	content: "Idol" url(../Images/Blend\ S/Stile/Select\ Idol.svg);
+	color: var(--hideri-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):after {
-	content: url(../Images/Blend\ S/Stile/Select\ Service.svg);
+	content: "Service" url(../Images/Blend\ S/Stile/Select\ Service.svg);
+	color: var(--service-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(7),
