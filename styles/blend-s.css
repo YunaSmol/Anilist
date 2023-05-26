@@ -284,7 +284,7 @@ body {
 .user .overview {
 	background: var(--maika-mid);
 	padding: 20px;
-	border: 5px solid var(--maika-dark);
+	border: 5px solid var(--maika-light);
 	margin-top: 0px;
 }
 
@@ -319,81 +319,90 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1) {
-	background: var(--maika-light);
+	background: var(--maika-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2) {
-	background: var(--kaho-light);
+	background: var(--kaho-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3) {
-	background: var(--mafuyu-light);
+	background: var(--mafuyu-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4) {
-	background: var(--miu-light);
+	background: var(--miu-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5) {
-	background: var(--hideri-light);
+	background: var(--hideri-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6) {
-	background: var(--service-light);
+	background: var(--service-dark);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):hover {
-	background: var(--maika-dark);
+	background: var(--maika-mid);
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2):hover {
-	background: var(--kaho-dark);
+	background: var(--kaho-mid);
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3):hover {
-	background: var(--mafuyu-dark);
+	background: var(--mafuyu-mid);
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4):hover {
-	background: var(--miu-dark);
+	background: var(--miu-mid);
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5):hover {
-	background: var(--hideri-dark);
+	background: var(--hideri-mid);
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):hover {
-	background: var(--service-dark);
+	background: var(--service-mid);
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1).router-link-active[data-v-1cc2919e] {
-	background: var(--maika-dark);
+	background: var(--maika-light);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2).router-link-active[data-v-1cc2919e] {
-	background: var(--kaho-dark);
+	background: var(--kaho-light);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3).router-link-active[data-v-1cc2919e] {
-	background: var(--mafuyu-dark);
+	background: var(--mafuyu-light);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4).router-link-active[data-v-1cc2919e] {
-	background: var(--miu-dark);
+	background: var(--miu-light);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5).router-link-active[data-v-1cc2919e] {
-	background: var(--hideri-dark);
+	background: var(--hideri-light);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6).router-link-active[data-v-1cc2919e] {
-	background: var(--service-dark);
+	background: var(--service-light);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(1):after {
+	content: url(../Images/Blend\ S/Stile/Select\ Sadistic.svg);
+	position: absolute;
+	right: 10px;
+	bottom: -5px;
+	height: 50px;
+	width: 50px;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(7),
