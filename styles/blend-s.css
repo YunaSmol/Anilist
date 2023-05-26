@@ -413,12 +413,14 @@ body {
 	width: 100%;
 	text-shadow: none;
 	transition: var(--transition-0-5);
+	z-index: -1;
 }
 
 .nav .link[data-v-1cc2919e]:hover:after {
 	transition: var(--transition-0-5);
 	opacity: 100%;
 	top: 55%;
+	z-index: 1;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):after {
@@ -453,6 +455,7 @@ body {
 .nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e]:after {
 	opacity: 100%;
 	top: 55%;
+	z-index: 1;
 }
 
 .nav
