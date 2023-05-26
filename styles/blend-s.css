@@ -30,6 +30,8 @@
 
 	--service-dark: #64c316;
 	--service-light: #c7e208;
+
+	--transition-0-5: all 0.5s ease-in-out;
 }
 
 * {
@@ -64,12 +66,12 @@ body {
 	height: 50px;
 	width: 50px;
 	content: url(../Images/Blend\ S/Stile/Logo.png) !important;
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .logo img[data-v-62eacfff]:hover {
 	transform: rotate(360deg);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .link[data-v-62eacfff] {
@@ -306,69 +308,68 @@ body {
 	border-radius: 15px 15px 0px 0px;
 	color: white;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	transition: var(--transition-0-5);
 }
+
 .nav .link[data-v-1cc2919e]:hover {
-	color: white;
+	padding: 0px 15px 30px;
+	color: rgba(0, 0, 0, 0) !important;
+	text-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1) {
 	background: var(--maika-light);
-	transition: all 0.5s ease-in-out;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2) {
 	background: var(--kaho-light);
-	transition: all 0.5s ease-in-out;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3) {
 	background: var(--mafuyu-light);
-	transition: all 0.5s ease-in-out;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4) {
 	background: var(--miu-light);
-	transition: all 0.5s ease-in-out;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5) {
 	background: var(--hideri-light);
-	transition: all 0.5s ease-in-out;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6) {
 	background: var(--service-light);
-	transition: all 0.5s ease-in-out;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):hover {
 	background: var(--maika-dark);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2):hover {
 	background: var(--kaho-dark);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3):hover {
 	background: var(--mafuyu-dark);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4):hover {
 	background: var(--miu-dark);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5):hover {
 	background: var(--hideri-dark);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):hover {
 	background: var(--service-dark);
-	transition: all 0.5s ease-in-out;
+	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1).router-link-active[data-v-1cc2919e] {
