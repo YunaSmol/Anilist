@@ -453,6 +453,7 @@ body {
 }
 
 .nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e]:after {
+	transition: var(--transition-0-5);
 	opacity: 100%;
 	top: 55%;
 	z-index: 1;
