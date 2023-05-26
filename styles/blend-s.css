@@ -375,6 +375,9 @@ body {
 
 .nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e] {
 	pointer-events: none;
+	padding: 0px 15px 30px;
+	color: rgba(0, 0, 0, 0) !important;
+	text-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1).router-link-active[data-v-1cc2919e] {
@@ -404,46 +407,89 @@ body {
 .nav .link[data-v-1cc2919e]:after {
 	position: absolute;
 	left: 50%;
-	top: 55%;
+	top: 105%;
+	opacity: 0%;
 	transform: translate(-50%, -50%);
 	width: 100%;
 	text-shadow: none;
-	visibility: 0;
 	transition: var(--transition-0-5);
 }
 
 .nav .link[data-v-1cc2919e]:hover:after {
-	visibility: 0;
 	transition: var(--transition-0-5);
+	opacity: 100%;
+	top: 55%;
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):after {
-	content: url(../Images/Blend\ S/Stile/Sadist\ Selected.svg);
+	content: url(../Images/Blend\ S/Stile/Sadist.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2):after {
-	content: url(../Images/Blend\ S/Stile/Tsundere\ Selected.svg);
+	content: url(../Images/Blend\ S/Stile/Tsundere.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3):after {
-	content: url(../Images/Blend\ S/Stile/Imouto\ Selected.svg);
+	content: url(../Images/Blend\ S/Stile/Imouto.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4):after {
-	content: url(../Images/Blend\ S/Stile/Onee-San\ Selected.svg);
+	content: url(../Images/Blend\ S/Stile/Onee-San.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5):after {
-	content: url(../Images/Blend\ S/Stile/Idol\ Selected.svg);
+	content: url(../Images/Blend\ S/Stile/Idol.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):after {
-	content: url(../Images/Blend\ S/Stile/Service\ Selected.svg);
+	content: url(../Images/Blend\ S/Stile/Service.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(7),
 .nav .link[data-v-1cc2919e]:nth-child(8) {
 	display: none;
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		1
+	).router-link-active[data-v-1cc2919e]:after {
+	content: url(../Images/Blend\ S/Stile/Sadist\ Selected.svg);
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		2
+	).router-link-active[data-v-1cc2919e]:after {
+	content: url(../Images/Blend\ S/Stile/Tsundere\ Selected.svg);
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		3
+	).router-link-active[data-v-1cc2919e]:after {
+	content: url(../Images/Blend\ S/Stile/Imouto\ Selected.svg);
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		4
+	).router-link-active[data-v-1cc2919e]:after {
+	content: url(../Images/Blend\ S/Stile/Onee-San\ Selected.svg);
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		5
+	).router-link-active[data-v-1cc2919e]:after {
+	content: url(../Images/Blend\ S/Stile/Idol\ Selected.svg);
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		6
+	).router-link-active[data-v-1cc2919e]:after {
+	content: url(../Images/Blend\ S/Stile/Service\ Selected.svg);
 }
 
 @media (min-width: 1540px) {
