@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.12 35">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: FRAC-ExtraBold, FRAC;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: .14em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #411c0a;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m26.8,12.48h10.04v10.04h-10.04s0-10.04,0-10.04Zm1.1,8.93h7.82v-7.82h-7.82v7.82Z"/>
+  <text class="cls-1" transform="translate(45.36 22.52)"><tspan x="0" y="0">SADIST</tspan></text>
+</svg>
