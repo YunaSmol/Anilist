@@ -447,7 +447,7 @@ body {
 
 .nav .link[data-v-1cc2919e]:nth-child(7),
 .nav .link[data-v-1cc2919e]:nth-child(8) {
-	display: none;
+	display: none !important;
 }
 
 .nav
