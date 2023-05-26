@@ -1,0 +1,402 @@
+@font-face {
+	font-family: "main-font";
+	src: url(../fonts/Co\ Headline\ Bold.otf);
+}
+
+:root {
+	--black-text: #431b06;
+	--white-text: #fffcf7;
+	--cream: #fbf4e7;
+
+	--maika-dark: #ff4d75;
+	--maika-mid: #ffc0ce;
+	--maika-light: #ffdce4;
+
+	--kaho-dark: #00ceff;
+	--kaho-mid: #a3edff;
+	--kaho-light: #ccf5ff;
+
+	--mafuyu-dark: #ffdf00;
+	--mafuyu-mid: #fff4a3;
+	--mafuyu-light: #fff9cc;
+
+	--miu-dark: #b733d0;
+	--miu-mid: #e5b5ee;
+	--miu-light: #f1d6f6;
+
+	--hideri-dark: #21cf95;
+	--hideri-mid: #afedd9;
+	--hideri-light: #d3f5ea;
+
+	--service-dark: #64c316;
+	--service-light: #c7e208;
+}
+
+* {
+	font-family: main-font;
+}
+
+body {
+	background: url(../Images/Blend\ S/Stile/Background.jpg) repeat;
+	background-size: 300px !important;
+	color: white;
+}
+
+/* Sticky Nav */
+
+.site-theme-dark .nav-unscoped.transparent,
+.site-theme-dark .nav-unscoped {
+	background: var(--maika-mid);
+	color: white;
+	width: 80%;
+	left: calc((100% - 80%) / 2);
+	border-radius: 0px 0px 15px 15px;
+	border: 5px solid var(--maika-light);
+	border-top: 0;
+}
+
+.site-theme-dark .nav-unscoped.transparent:hover {
+	background: var(--maika-mid);
+	color: white;
+}
+
+.logo img[data-v-62eacfff] {
+	height: 50px;
+	width: 50px;
+	content: url(../Images/Blend\ S/Stile/Logo.png) !important;
+	transition: all 0.5s ease-in-out;
+}
+
+.logo img[data-v-62eacfff]:hover {
+	transform: rotate(360deg);
+	transition: all 0.5s ease-in-out;
+}
+
+.link[data-v-62eacfff] {
+	border-radius: 10px;
+}
+
+.link[data-v-62eacfff]:hover {
+	color: white;
+}
+
+.link[data-v-62eacfff]:nth-child(1):hover {
+	background: var(--maika-dark);
+}
+
+.link[data-v-62eacfff]:nth-child(2):hover {
+	background: var(--kaho-dark);
+}
+
+.link[data-v-62eacfff]:nth-child(3):hover {
+	background: var(--mafuyu-dark);
+}
+
+.link[data-v-62eacfff]:nth-child(4):hover {
+	background: var(--miu-dark);
+}
+
+.browse-wrap[data-v-62eacfff] .link[data-v-62eacfff]:nth-child(1):hover {
+	background: var(--hideri-dark);
+}
+
+.link[data-v-62eacfff]:nth-child(6):hover {
+	background: var(--service-dark);
+}
+
+.dropdown[data-v-38edf8f8] {
+	top: 50px;
+}
+
+.dropdown[data-v-38edf8f8]:before {
+	color: var(--hideri-light);
+}
+
+.browse-wrap[data-v-62eacfff]:hover:after {
+	top: 235%;
+}
+
+.primary-links[data-v-38edf8f8] {
+	background: var(--hideri-mid);
+	border: 5px solid var(--hideri-light);
+	border-bottom: 0px;
+}
+
+.primary-link[data-v-38edf8f8],
+.primary-link .icon[data-v-38edf8f8],
+.footer[data-v-38edf8f8],
+.secondary-links[data-v-38edf8f8] {
+	color: white;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.primary-link-text[data-v-38edf8f8] {
+	padding: 2px 5px;
+	border-radius: 5px;
+}
+
+.secondary-links a[data-v-38edf8f8] {
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+
+.primary-link-text[data-v-38edf8f8]:hover,
+.secondary-links a[data-v-38edf8f8]:hover {
+	background: var(--hideri-dark);
+	color: white;
+}
+
+.primary-link:hover .icon[data-v-38edf8f8] {
+	color: var(--hideri-dark);
+}
+
+.footer[data-v-38edf8f8] {
+	background: var(--hideri-dark);
+	border: 5px solid var(--hideri-light);
+	border-top: 0px;
+}
+
+.footer a[data-v-38edf8f8] {
+	padding: 5px;
+	border-radius: 5px;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.footer a[data-v-38edf8f8]:hover {
+	background: var(--hideri-mid);
+	color: white;
+}
+
+.footer a:hover .icon[data-v-38edf8f8] {
+	color: var(--hideri-dark);
+}
+
+.transparent .search[data-v-62eacfff] svg,
+.user .chevron[data-v-62eacfff] {
+	color: white;
+}
+
+.dropdown[data-v-04b245e6] {
+	width: 220px;
+}
+
+.dropdown[data-v-04b245e6]:before {
+	color: var(--maika-light);
+}
+
+.primary-links[data-v-04b245e6] {
+	background: var(--maika-mid);
+	border: 5px solid var(--maika-light);
+	border-bottom: 0;
+}
+
+.primary-link[data-v-04b245e6] {
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+
+.primary-link[data-v-04b245e6],
+.primary-link .icon[data-v-04b245e6],
+.primary-link[data-v-04b245e6]:hover,
+.primary-link[data-v-04b245e6]:hover .icon[data-v-04b245e6] {
+	color: white;
+}
+
+.primary-link[data-v-04b245e6]:hover {
+	background: var(--maika-dark);
+}
+
+.footer[data-v-04b245e6] {
+	background: var(--maika-dark);
+	border: 5px solid var(--maika-light);
+	border-top: 0;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+}
+
+.secondary-link[data-v-04b245e6] {
+	color: white;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.secondary-link[data-v-04b245e6]:hover {
+	background: var(--maika-light);
+	color: var(--maika-dark);
+}
+
+.secondary-link[data-v-04b245e6]:hover svg:not(:root).svg-inline--fa {
+	color: var(--maika-dark);
+}
+
+/* Banner */
+
+.banner[data-v-1cc2919e] {
+	background-image: none !important;
+	background-color: transparent;
+	height: 350px;
+}
+
+.banner-content[data-v-1cc2919e] {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.banner .container[data-v-1cc2919e] {
+	width: 350px;
+}
+
+.avatar[data-v-1cc2919e] {
+	content: url(../Images/Blend\ S/Maika/01.png);
+	border-radius: 50%;
+}
+
+.avatar[data-v-1cc2919e]:hover {
+	content: url(../Images/Blend\ S/Maika/02.png);
+}
+
+.banner-content h1.name {
+	font-size: 3rem;
+}
+
+.actions[data-v-1cc2919e] {
+	position: absolute;
+	right: -100%;
+	bottom: 50%;
+}
+
+.nav-btn[data-v-1cc2919e] {
+	background: var(--maika-mid);
+}
+
+.nav-btn[data-v-1cc2919e]:hover {
+	background: var(--maika-dark);
+}
+
+.dropdown[data-v-1cc2919e] {
+	display: none;
+}
+
+.user .overview {
+	background: var(--maika-mid);
+	padding: 20px;
+	border: 5px solid var(--maika-dark);
+	margin-top: 0px;
+}
+
+.nav-wrap[data-v-1cc2919e] {
+	background: none;
+	margin-top: 50px;
+}
+
+.nav[data-v-1cc2919e] {
+	max-width: 1040px;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nav .link[data-v-1cc2919e] {
+	width: 100%;
+	flex: 1;
+	flex-shrink: 0;
+	margin: 0;
+	border-radius: 15px 15px 0px 0px;
+	color: white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.nav .link[data-v-1cc2919e]:hover {
+	color: white;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(1) {
+	background: var(--maika-light);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(2) {
+	background: var(--kaho-light);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(3) {
+	background: var(--mafuyu-light);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(4) {
+	background: var(--miu-light);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(5) {
+	background: var(--hideri-light);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(6) {
+	background: var(--service-light);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(1):hover {
+	background: var(--maika-dark);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(2):hover {
+	background: var(--kaho-dark);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(3):hover {
+	background: var(--mafuyu-dark);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(4):hover {
+	background: var(--miu-dark);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(5):hover {
+	background: var(--hideri-dark);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(6):hover {
+	background: var(--service-dark);
+	transition: all 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(1).router-link-active[data-v-1cc2919e] {
+	background: var(--maika-dark);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(2).router-link-active[data-v-1cc2919e] {
+	background: var(--kaho-dark);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(3).router-link-active[data-v-1cc2919e] {
+	background: var(--mafuyu-dark);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(4).router-link-active[data-v-1cc2919e] {
+	background: var(--miu-dark);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(5).router-link-active[data-v-1cc2919e] {
+	background: var(--hideri-dark);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(6).router-link-active[data-v-1cc2919e] {
+	background: var(--service-dark);
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(7),
+.nav .link[data-v-1cc2919e]:nth-child(8) {
+	display: none;
+}
