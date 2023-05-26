@@ -450,6 +450,11 @@ body {
 	display: none !important;
 }
 
+.nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e]:after {
+	opacity: 100%;
+	top: 55%;
+}
+
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		1
