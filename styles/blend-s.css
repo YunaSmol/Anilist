@@ -500,15 +500,8 @@ body {
 /* Nav Before */
 
 .nav .link[data-v-1cc2919e]:nth-child(1):before {
+	content: "";
 	background-image: url(../Images/Blend-S/Maika/Dance/Dance-01.png);
-	animation-name: sadist;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
-	animation-iteration-count: infinite;
-	animation-direction: reverse;
-	animation-fill-mode: backwards;
-	background-size: contain;
-	background-repeat: no-repeat;
 	position: absolute;
 	width: 100%;
 	height: 90px;
@@ -519,12 +512,7 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):hover:before {
-	animation-name: sadist;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
+	background-image: url(../Images/Blend-S/Maika/Dance/Dance-02.png);
 	top: -190%;
 	transition: top 0.5s ease-in-out;
 }
@@ -542,14 +530,6 @@ body {
 	content: "";
 	pointer-events: none;
 	background-image: url(../Images/Blend-S/Stile/Service\ 01.png);
-	animation-name: service;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
-	animation-iteration-count: 1;
-	animation-direction: reverse;
-	animation-fill-mode: backwards;
-	background-size: contain;
-	background-repeat: no-repeat;
 	position: absolute;
 	width: 100%;
 	height: 90px;
@@ -560,12 +540,6 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):hover:before {
-	animation-name: service;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
-	animation-iteration-count: 1;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
 	top: -190%;
 	z-index: -1;
 	transition: top 0.5s ease-in-out;
@@ -584,46 +558,5 @@ body {
 @media (min-width: 1540px) {
 	.nav[data-v-1cc2919e] {
 		max-width: 1320px;
-	}
-}
-
-/* Keyframes */
-
-@keyframes service {
-	from {
-		background-image: url(../Images/Blend-S/Stile/Service\ 01.png);
-	}
-	to {
-		background-image: url(../Images/Blend-S/Stile/Service\ 02.png);
-	}
-}
-
-@keyframes sadist {
-	0% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-01.png);
-	}
-	12% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-02.png);
-	}
-	25% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-03.png);
-	}
-	37% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-04.png);
-	}
-	50% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-05.png);
-	}
-	62% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-06.png);
-	}
-	75% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-07.png);
-	}
-	87% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-08.png);
-	}
-	100% {
-		background-image: url(../Images/Blend-S/Maika/Dance/Dance-09.png);
 	}
 }
