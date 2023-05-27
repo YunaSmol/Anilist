@@ -39,7 +39,7 @@
 }
 
 body {
-	background: url(../Images/Blend\ S/Stile/Background.jpg) repeat;
+	background: url(../Images/Blend-S/Stile/Background.jpg) repeat;
 	background-size: 300px !important;
 	color: white;
 }
@@ -65,7 +65,7 @@ body {
 .logo img[data-v-62eacfff] {
 	height: 50px;
 	width: 50px;
-	content: url(../Images/Blend\ S/Stile/Logo.png) !important;
+	content: url(../Images/Blend-S/Stile/Logo.png) !important;
 	transition: var(--transition-0-5);
 }
 
@@ -252,12 +252,12 @@ body {
 }
 
 .avatar[data-v-1cc2919e] {
-	content: url(../Images/Blend\ S/Maika/01.png);
+	content: url(../Images/Blend-S/Maika/01.png);
 	border-radius: 50%;
 }
 
 .avatar[data-v-1cc2919e]:hover {
-	content: url(../Images/Blend\ S/Maika/02.png);
+	content: url(../Images/Blend-S/Maika/02.png);
 }
 
 .banner-content h1.name {
@@ -419,27 +419,27 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):after {
-	content: url(../Images/Blend\ S/Stile/Sadist.svg);
+	content: url(../Images/Blend-S/Stile/Sadist.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(2):after {
-	content: url(../Images/Blend\ S/Stile/Tsundere.svg);
+	content: url(../Images/Blend-S/Stile/Tsundere.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(3):after {
-	content: url(../Images/Blend\ S/Stile/Imouto.svg);
+	content: url(../Images/Blend-S/Stile/Imouto.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(4):after {
-	content: url(../Images/Blend\ S/Stile/Onee-San.svg);
+	content: url(../Images/Blend-S/Stile/Onee-San.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(5):after {
-	content: url(../Images/Blend\ S/Stile/Idol.svg);
+	content: url(../Images/Blend-S/Stile/Idol.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):after {
-	content: url(../Images/Blend\ S/Stile/Service.svg);
+	content: url(../Images/Blend-S/Stile/Service.svg);
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(7),
@@ -459,42 +459,42 @@ body {
 	.link[data-v-1cc2919e]:nth-child(
 		1
 	).router-link-active[data-v-1cc2919e]:after {
-	content: url(../Images/Blend\ S/Stile/Sadist\ Selected.svg);
+	content: url(../Images/Blend-S/Stile/Sadist\ Selected.svg);
 }
 
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		2
 	).router-link-active[data-v-1cc2919e]:after {
-	content: url(../Images/Blend\ S/Stile/Tsundere\ Selected.svg);
+	content: url(../Images/Blend-S/Stile/Tsundere\ Selected.svg);
 }
 
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		3
 	).router-link-active[data-v-1cc2919e]:after {
-	content: url(../Images/Blend\ S/Stile/Imouto\ Selected.svg);
+	content: url(../Images/Blend-S/Stile/Imouto\ Selected.svg);
 }
 
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		4
 	).router-link-active[data-v-1cc2919e]:after {
-	content: url(../Images/Blend\ S/Stile/Onee-San\ Selected.svg);
+	content: url(../Images/Blend-S/Stile/Onee-San\ Selected.svg);
 }
 
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		5
 	).router-link-active[data-v-1cc2919e]:after {
-	content: url(../Images/Blend\ S/Stile/Idol\ Selected.svg);
+	content: url(../Images/Blend-S/Stile/Idol\ Selected.svg);
 }
 
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		6
 	).router-link-active[data-v-1cc2919e]:after {
-	content: url(../Images/Blend\ S/Stile/Service\ Selected.svg);
+	content: url(../Images/Blend-S/Stile/Service\ Selected.svg);
 }
 
 .nav .link[data-v-1cc2919e]:before {
@@ -534,7 +534,7 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(6):before {
-	background-image: url(../Images/Blend\ S/Stile/Service\ 01.png);
+	background-image: url(../Images/Blend-S/Stile/Service\ 01.png);
 	animation-name: service;
 }
 
@@ -546,7 +546,7 @@ body {
 	.link[data-v-1cc2919e]:nth-child(
 		6
 	).router-link-active[data-v-1cc2919e]:before {
-	background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
+	background-image: url(../Images/Blend-S/Stile/Service\ 02.png);
 }
 
 @media (min-width: 1540px) {
@@ -559,9 +559,39 @@ body {
 
 @keyframes service {
 	from {
-		background-image: url(../Images/Blend\ S/Stile/Service\ 01.png);
+		background-image: url(../Images/Blend-S/Stile/Service\ 01.png);
 	}
 	to {
-		background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
+		background-image: url(../Images/Blend-S/Stile/Service\ 02.png);
+	}
+}
+
+@keyframes sadist {
+	0% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-01.png);
+	}
+	12% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-02.png);
+	}
+	25% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-03.png);
+	}
+	37% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-04.png);
+	}
+	50% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-05.png);
+	}
+	62% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-06.png);
+	}
+	75% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-07.png);
+	}
+	87% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-08.png);
+	}
+	100% {
+		background-image: url(../Images/Blend-S/Maika/Dance/Dance-09.png);
 	}
 }
