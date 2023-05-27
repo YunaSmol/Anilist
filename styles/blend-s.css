@@ -544,17 +544,17 @@ body {
 
 .nav
 	.link[data-v-1cc2919e]:nth-child(
-		6
+		1
 	).router-link-active[data-v-1cc2919e]:before {
 	background-image: url(../Images/Blend-S/Stile/Service\ 02.png);
 }
 
-.nav .link[data-v-1cc2919e]:nth-child(6):before {
+.nav .link[data-v-1cc2919e]:nth-child(1):before {
 	background-image: url(../Images/Blend-S/Maika/Dance/Dance-01.png);
 	animation-name: sadist;
 }
 
-.nav .link[data-v-1cc2919e]:nth-child(6):hover:before {
+.nav .link[data-v-1cc2919e]:nth-child(1):hover:before {
 	animation-name: sadist;
 }
 
