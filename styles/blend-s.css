@@ -498,7 +498,6 @@ body {
 
 .nav .link[data-v-1cc2919e]:before {
 	content: "";
-	background-image: url(../Images/Blend\ S/Stile/Service\ 01.png);
 	animation-duration: 0s;
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
@@ -515,7 +514,7 @@ body {
 	transition: top 0.5s ease-in-out;
 }
 
-.nav .link[data-v-1cc2919e]:nth-child(6):hover:before {
+.nav .link[data-v-1cc2919e]:hover:before {
 	animation-duration: 0s;
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
