@@ -509,12 +509,12 @@ body {
 	transition: top 0.5s ease-in-out;
 }
 
-.nav .link[data-v-1cc2919e]:nth-child(6):before {
+.nav .link[data-v-1cc2919e]:nth-child(6):hover:before {
 	content: "";
 	background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
 	top: -190%;
 	z-index: -1;
-	transition: top 0.5s ease-in-out, all 0s 0.5s ease-in-out;
+	transition: top 0.5s ease-in-out;
 }
 
 @media (min-width: 1540px) {
