@@ -498,7 +498,12 @@ body {
 
 .nav .link[data-v-1cc2919e]:nth-child(6):before {
 	content: "";
-	background-image: url(../Images/Blend\ S/Stile/Service\ 01.png);
+	animation-name: service;
+	animation-duration: 0s;
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
+	animation-direction: reverse;
+	animation-fill-mode: reverse;
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -512,7 +517,12 @@ body {
 
 .nav .link[data-v-1cc2919e]:nth-child(6):hover:before {
 	content: "";
-	background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
+	animation-name: service;
+	animation-duration: 0s;
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
+	animation-direction: forwards;
+	animation-fill-mode: forwards;
 	top: -190%;
 	z-index: -1;
 	transition: top 0.5s ease-in-out;
@@ -531,5 +541,16 @@ body {
 @media (min-width: 1540px) {
 	.nav[data-v-1cc2919e] {
 		max-width: 1320px;
+	}
+}
+
+/* Keyframes */
+
+@keyframes service {
+	from {
+		background-image: url(../Images/Blend\ S/Stile/Service\ 01.png);
+	}
+	to {
+		background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
 	}
 }
