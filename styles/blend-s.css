@@ -375,7 +375,8 @@ body {
 }
 
 .nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e] {
-	pointer-events: none;
+	user-select: none;
+	cursor: default;
 	padding: 0px 15px 30px;
 	color: rgba(0, 0, 0, 0) !important;
 	text-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
