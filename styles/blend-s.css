@@ -515,7 +515,7 @@ body {
 }
 
 .nav .link[data-v-1cc2919e]:nth-child(1):hover:before {
-	background-image: url(../Images/Blend-S/Maika/Dance/Dance-02.png);
+	background-image: url(../Images/Blend-S/Maika/Dance/Dance.gif);
 	top: -240%;
 	transition: top 0.5s ease-in-out;
 }
