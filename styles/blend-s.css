@@ -225,6 +225,7 @@ body {
 .secondary-link[data-v-04b245e6]:hover {
 	background: var(--maika-light);
 	color: var(--maika-dark);
+	transition: none;
 }
 
 .secondary-link[data-v-04b245e6]:hover svg:not(:root).svg-inline--fa {
@@ -511,6 +512,16 @@ body {
 
 .nav .link[data-v-1cc2919e]:nth-child(6):hover:before {
 	content: "";
+	background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
+	top: -190%;
+	z-index: -1;
+	transition: top 0.5s ease-in-out;
+}
+
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		6
+	).router-link-active[data-v-1cc2919e]:before {
 	background-image: url(../Images/Blend\ S/Stile/Service\ 02.png);
 	top: -190%;
 	z-index: -1;
