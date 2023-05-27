@@ -407,6 +407,7 @@ body {
 
 .nav .link[data-v-1cc2919e]:after {
 	position: absolute;
+	pointer-events: none;
 	left: 50%;
 	top: 105%;
 	opacity: 0%;
@@ -498,6 +499,7 @@ body {
 
 .nav .link[data-v-1cc2919e]:before {
 	content: "";
+	pointer-events: none;
 	animation-duration: 0s;
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
