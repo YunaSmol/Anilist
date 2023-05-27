@@ -498,12 +498,13 @@ body {
 
 .nav .link[data-v-1cc2919e]:nth-child(6):before {
 	content: "";
+	background-image: url(../Images/Blend\ S/Stile/Service\ 01.png);
 	animation-name: service;
 	animation-duration: 0s;
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
 	animation-direction: reverse;
-	animation-fill-mode: reverse;
+	animation-fill-mode: backwards;
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -521,7 +522,7 @@ body {
 	animation-duration: 0s;
 	animation-delay: 0.5s;
 	animation-iteration-count: 1;
-	animation-direction: forwards;
+	animation-direction: normal;
 	animation-fill-mode: forwards;
 	top: -190%;
 	z-index: -1;
