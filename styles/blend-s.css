@@ -416,13 +416,6 @@ body {
 	z-index: -1;
 }
 
-.nav .link[data-v-1cc2919e]:hover:after {
-	transition: var(--transition-0-5);
-	opacity: 100%;
-	top: 55%;
-	z-index: 1;
-}
-
 .nav .link[data-v-1cc2919e]:nth-child(1):after {
 	content: url(../Images/Blend\ S/Stile/Sadist.svg);
 }
@@ -452,6 +445,7 @@ body {
 	display: none !important;
 }
 
+.nav .link[data-v-1cc2919e]:hover:after,
 .nav .link[data-v-1cc2919e].router-link-active[data-v-1cc2919e]:after {
 	transition: var(--transition-0-5);
 	opacity: 100%;
