@@ -514,13 +514,11 @@ body {
 	z-index: -1;
 	transition: top 0.5s ease-in-out;
 }
-
 .nav .link[data-v-1cc2919e]:nth-child(1):hover:before {
 	background-image: url(../Images/Blend-S/Maika/Dance/Dance.gif);
 	top: -240%;
 	transition: top 0.5s ease-in-out;
 }
-
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		1
@@ -529,12 +527,47 @@ body {
 	top: -240%;
 	transition: top 0.5s ease-in-out;
 }
-
 .nav
 	.link[data-v-1cc2919e]:nth-child(
 		1
 	).router-link-active[data-v-1cc2919e]:hover:before {
 	background-image: url(../Images/Blend-S/Maika/Dance/Dance-Jump-02.png);
+	top: -240%;
+	transition: top 0.5s ease-in-out;
+}
+
+.nav .link[data-v-1cc2919e]:nth-child(2):before {
+	content: "";
+	background-image: url(../Images/Blend-S/Kaho/Dance/Dance-01.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	top: -100%;
+	left: 0;
+	z-index: -1;
+	transition: top 0.5s ease-in-out;
+}
+.nav .link[data-v-1cc2919e]:nth-child(2):hover:before {
+	background-image: url(../Images/Blend-S/Kaho/Dance/Dance.gif);
+	top: -240%;
+	transition: top 0.5s ease-in-out;
+}
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		2
+	).router-link-active[data-v-1cc2919e]:before {
+	background-image: url(../Images/Blend-S/Kaho/Dance/Dance-Jump-01.png);
+	top: -240%;
+	transition: top 0.5s ease-in-out;
+}
+.nav
+	.link[data-v-1cc2919e]:nth-child(
+		2
+	).router-link-active[data-v-1cc2919e]:hover:before {
+	background-image: url(../Images/Blend-S/Kaho/Dance/Dance-Jump-02.png);
 	top: -240%;
 	transition: top 0.5s ease-in-out;
 }
