@@ -724,9 +724,9 @@ body {
 	border: 5px solid var(--maika-light);
 }
 
-.overview[data-v-5c30286e] .desktop[data-v-5c30286e]:nth-child(1) .content-wrap,
+.overview[data-v-5c30286e] .desktop[data-v-5c30286e]:nth-child(2) .content-wrap,
 .overview[data-v-5c30286e]
-	.desktop[data-v-5c30286e]:nth-child(2)
+	.desktop[data-v-5c30286e]:nth-child(3)
 	.content-wrap {
 	margin-top: 60px;
 }
