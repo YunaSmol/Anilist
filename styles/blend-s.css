@@ -1,5 +1,5 @@
 @font-face {
-	font-family: "main-font";
+	font-family: "yuna-font";
 	src: url(../fonts/Co\ Headline\ Bold.otf);
 }
 
@@ -35,7 +35,7 @@
 }
 
 * {
-	font-family: main-font;
+	font-family: yuna-font;
 }
 
 body {
@@ -697,6 +697,41 @@ body {
 
 .about .content-wrap .markdown[data-v-5c30286e] p img {
 	content: url(../Images/Bio.png);
+}
+
+.desktop {
+	position: relative;
+}
+
+.overview[data-v-5c30286e] .desktop[data-v-5c30286e] .section-header {
+	background: var(--maika-mid);
+	color: white;
+	width: fit-content;
+	padding: 10px;
+	border: 5px solid var(--maika-light);
+	border-bottom: 0px;
+	border-radius: 15px 15px 0px 0px;
+	margin-bottom: 0px;
+	font-family: yuna-font !important;
+	font-weight: 400;
+	z-index: 1;
+	top: -36px;
+}
+
+.overview[data-v-5c30286e] .desktop[data-v-5c30286e] .content-wrap {
+	background: var(--maika-mid);
+	border: 5px solid var(--maika-light);
+	margin-top: 60px;
+}
+
+.favourites[data-v-ddf96a3c] {
+	margin-top: 60px;
+}
+
+.favourites.preview:hover .actions[data-v-ddf96a3c] {
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 
 /* Other */
