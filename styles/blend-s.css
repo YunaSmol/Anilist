@@ -691,7 +691,7 @@ body {
 	margin: 0;
 }
 
-.about .content-wrap .markdown[data-v-5c30286e] p > img {
+.about .content-wrap .markdown[data-v-5c30286e] p img {
 	content: url(../Images/Bio.png);
 }
 
