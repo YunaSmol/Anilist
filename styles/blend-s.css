@@ -719,6 +719,12 @@ body {
 	margin-top: 60px;
 }
 
+.overview[data-v-5c30286e]
+	.desktop[data-v-5c30286e]:nth-child(1)
+	.section-header {
+	margin-top: 0px;
+}
+
 .overview[data-v-5c30286e] .desktop[data-v-5c30286e] .content-wrap {
 	background: var(--maika-mid);
 	border: 5px solid var(--maika-light);
