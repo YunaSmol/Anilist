@@ -716,18 +716,12 @@ body {
 	font-weight: 400;
 	z-index: 1;
 	top: -36px;
+	margin-top: 60px;
 }
 
 .overview[data-v-5c30286e] .desktop[data-v-5c30286e] .content-wrap {
 	background: var(--maika-mid);
 	border: 5px solid var(--maika-light);
-}
-
-.overview[data-v-5c30286e] .desktop[data-v-5c30286e]:nth-child(1) .content-wrap,
-.overview[data-v-5c30286e]
-	.desktop[data-v-5c30286e]:nth-child(2)
-	.content-wrap {
-	margin-top: 60px;
 }
 
 .favourites[data-v-ddf96a3c] {
