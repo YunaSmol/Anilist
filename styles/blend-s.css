@@ -686,6 +686,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+.user-page-unscoped .about p:first-of-type,
+.user-page-unscoped .about p:last-of-type {
+	margin: 0;
+}
+
 /* Other */
 
 @media (min-width: 1540px) {
