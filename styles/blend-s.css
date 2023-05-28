@@ -721,6 +721,12 @@ body {
 .overview[data-v-5c30286e] .desktop[data-v-5c30286e] .content-wrap {
 	background: var(--maika-mid);
 	border: 5px solid var(--maika-light);
+}
+
+.overview[data-v-5c30286e] .desktop[data-v-5c30286e]:nth-child(1) .content-wrap,
+.overview[data-v-5c30286e]
+	.desktop[data-v-5c30286e]:nth-child(2)
+	.content-wrap {
 	margin-top: 60px;
 }
 
@@ -728,7 +734,7 @@ body {
 	margin-top: 60px;
 }
 
-.favourites.preview:hover .actions[data-v-ddf96a3c] {
+.favourites.preview .actions[data-v-ddf96a3c] {
 	position: absolute;
 	right: 0px;
 	top: 0px;
