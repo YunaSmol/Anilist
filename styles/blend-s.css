@@ -847,31 +847,31 @@ body {
 
 .genre[data-v-63cd3b41]:nth-child(1) .name,
 .percentage[data-v-63cd3b41]:nth-child(1) {
-	background: var(--maika-dark);
+	background: var(--maika-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(2) .name,
 .percentage[data-v-63cd3b41]:nth-child(2) {
-	background: var(--kaho-dark);
+	background: var(--kaho-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(3) .name,
 .percentage[data-v-63cd3b41]:nth-child(3) {
-	background: var(--mafuyu-dark);
+	background: var(--mafuyu-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(4) .name,
 .percentage[data-v-63cd3b41]:nth-child(4) {
-	background: var(--miu-dark);
+	background: var(--miu-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(5) .name,
 .percentage[data-v-63cd3b41]:nth-child(5) {
-	background: var(--hideri-dark);
+	background: var(--hideri-dark) !important;
 }
 
 .percentage[data-v-63cd3b41]:nth-child(6) .amount {
-	background: var(--service-dark);
+	background: var(--service-dark) !important;
 }
 
 .amount[data-v-63cd3b41] {
@@ -879,23 +879,23 @@ body {
 }
 
 .genre[data-v-63cd3b41]:nth-child(1) .amount {
-	color: var(--maika-dark);
+	color: var(--maika-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(2) .amount {
-	color: var(--kaho-dark);
+	color: var(--kaho-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(3) .amount {
-	color: var(--mafuyu-dark);
+	color: var(--mafuyu-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(4) .amount {
-	color: var(--miu-dark);
+	color: var(--miu-dark) !important;
 }
 
 .genre[data-v-63cd3b41]:nth-child(5) .amount {
-	color: var(--hideri-dark);
+	color: var(--hideri-dark) !important;
 }
 
 .label[data-v-63cd3b41] {
@@ -903,12 +903,12 @@ body {
 }
 
 .el-tooltip__popper {
-	background: var(--maika-mid);
+	background: var(--maika-mid) !important;
 	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
-.el-tooltip__popper .popper__arrow:after {
-	border-top-color: var(--maika-mid);
+.el-tooltip__popper[x-placement^="top"] .popper__arrow:after {
+	border-top-color: var(--maika-mid) !important;
 }
 
 .favourites[data-v-ddf96a3c] {
