@@ -43,7 +43,7 @@
 body {
 	background: url(../Images/Blend-S/Stile/Background.jpg) repeat;
 	background-size: 300px !important;
-	color: white;
+	color: var(--white-text);
 }
 
 /* Sticky Nav */
@@ -51,7 +51,7 @@ body {
 .site-theme-dark .nav-unscoped.transparent,
 .site-theme-dark .nav-unscoped {
 	background: var(--maika-mid);
-	color: white;
+	color: var(--white-text);
 	width: 80%;
 	left: calc((100% - 80%) / 2);
 	border-radius: 0px 0px 15px 15px;
@@ -61,7 +61,7 @@ body {
 
 .site-theme-dark .nav-unscoped.transparent:hover {
 	background: var(--maika-mid);
-	color: white;
+	color: var(--white-text);
 }
 
 .logo img[data-v-62eacfff] {
@@ -81,7 +81,7 @@ body {
 }
 
 .link[data-v-62eacfff]:hover {
-	color: white;
+	color: var(--white-text);
 }
 
 .link[data-v-62eacfff]:nth-child(1):hover {
@@ -130,7 +130,7 @@ body {
 .primary-link .icon[data-v-38edf8f8],
 .footer[data-v-38edf8f8],
 .secondary-links[data-v-38edf8f8] {
-	color: white;
+	color: var(--white-text);
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -147,7 +147,7 @@ body {
 .primary-link-text[data-v-38edf8f8]:hover,
 .secondary-links a[data-v-38edf8f8]:hover {
 	background: var(--hideri-dark);
-	color: white;
+	color: var(--white-text);
 }
 
 .primary-link:hover .icon[data-v-38edf8f8] {
@@ -168,7 +168,7 @@ body {
 
 .footer a[data-v-38edf8f8]:hover {
 	background: var(--hideri-mid);
-	color: white;
+	color: var(--white-text);
 }
 
 .footer a:hover .icon[data-v-38edf8f8] {
@@ -177,7 +177,7 @@ body {
 
 .transparent .search[data-v-62eacfff] svg,
 .user .chevron[data-v-62eacfff] {
-	color: white;
+	color: var(--white-text);
 }
 
 .dropdown[data-v-04b245e6] {
@@ -203,7 +203,7 @@ body {
 .primary-link .icon[data-v-04b245e6],
 .primary-link[data-v-04b245e6]:hover,
 .primary-link[data-v-04b245e6]:hover .icon[data-v-04b245e6] {
-	color: white;
+	color: var(--white-text);
 }
 
 .primary-link[data-v-04b245e6]:hover {
@@ -219,7 +219,7 @@ body {
 }
 
 .secondary-link[data-v-04b245e6] {
-	color: white;
+	color: var(--white-text);
 	padding: 3px;
 	border-radius: 5px;
 }
@@ -310,7 +310,7 @@ body {
 	flex: 1;
 	margin: 0;
 	border-radius: 15px 15px 0px 0px;
-	color: white;
+	color: var(--white-text);
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 	transition: var(--transition-0-5);
 }
@@ -707,7 +707,7 @@ body {
 
 .overview[data-v-5c30286e] .desktop[data-v-5c30286e] .section-header {
 	background: var(--maika-mid);
-	color: white;
+	color: var(--white-text);
 	width: fit-content;
 	padding: 10px;
 	border: 5px solid var(--maika-light);
@@ -788,6 +788,72 @@ body {
 }
 
 .history-day.lv-9[data-v-b79eb0f0]:after {
+	background-color: var(--maika-dark);
+}
+
+.tooltip[data-v-366e5d34] {
+	background: var(--maika-mid);
+}
+
+.title[data-v-366e5d34] {
+	background: var(--maika-light);
+	color: var(--maika-dark);
+}
+
+.content[data-v-366e5d34] {
+	color: var(--white-text);
+	font-size: 1.5rem;
+}
+
+.tooltip .circle[data-v-b79eb0f0] {
+	background: url(../Images/Blend-S/Stile/Checkbox\ V2.svg);
+	position: relative;
+}
+
+.tooltip .circle.lv-1[data-v-b79eb0f0],
+.tooltip .circle.lv-2[data-v-b79eb0f0],
+.tooltip .circle.lv-3[data-v-b79eb0f0],
+.tooltip .circle.lv-4[data-v-b79eb0f0],
+.tooltip .circle.lv-5[data-v-b79eb0f0],
+.tooltip .circle.lv-6[data-v-b79eb0f0],
+.tooltip .circle.lv-7[data-v-b79eb0f0],
+.tooltip .circle.lv-8[data-v-b79eb0f0],
+.tooltip .circle.lv-9[data-v-b79eb0f0] {
+	background: url(../Images/Blend-S/Stile/Checkbox\ V2.svg);
+	border-radius: 0;
+}
+
+.tooltip .circle[data-v-b79eb0f0]:after {
+	content: "";
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	bottom: 2px;
+	right: -6px;
+	-webkit-mask: url(../Images/Blend-S/Stile/Check.svg) no-repeat 50% 50%;
+	mask: url(../Images/Blend-S/Stile/Check.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+	background-color: var(--coffee);
+}
+
+.tooltip .circle.lv-5[data-v-b79eb0f0]:after {
+	background-color: var(--hideri-dark);
+}
+
+.tooltip .circle.lv-6[data-v-b79eb0f0]:after {
+	background-color: var(--miu-dark);
+}
+
+.tooltip .circle.lv-7[data-v-b79eb0f0]:after {
+	background-color: var(--mafuyu-dark);
+}
+
+.tooltip .circle.lv-8[data-v-b79eb0f0]:after {
+	background-color: var(--kaho-dark);
+}
+
+.tooltip .circle.lv-9[data-v-b79eb0f0]:after {
 	background-color: var(--maika-dark);
 }
 
