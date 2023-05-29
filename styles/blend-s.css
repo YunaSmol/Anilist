@@ -782,6 +782,10 @@ body {
 	background-color: var(--coffee);
 }
 
+.history-day.lv-0[data-v-b79eb0f0]:after {
+	display: none;
+}
+
 .history-day.lv-5[data-v-b79eb0f0]:after,
 .tooltip .circle.lv-5[data-v-b79eb0f0]:after {
 	background-color: var(--hideri-dark);
