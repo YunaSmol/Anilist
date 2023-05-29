@@ -31,6 +31,8 @@
 	--service-dark: #64c316;
 	--service-light: #c7e208;
 
+	--coffee: #411c0a;
+
 	--transition-0-5: all 0.5s ease-in-out;
 }
 
@@ -729,6 +731,45 @@ body {
 	.desktop[data-v-5c30286e]:nth-child(3)
 	.content-wrap {
 	margin-top: 60px;
+}
+
+.history-day[data-v-b79eb0f0] {
+	background: url(../Images/Blend-S/Stile/Checkbox.svg);
+}
+
+.history-day.lv-1[data-v-b79eb0f0],
+.history-day.lv-2[data-v-b79eb0f0],
+.history-day.lv-3[data-v-b79eb0f0],
+.history-day.lv-4[data-v-b79eb0f0],
+.history-day.lv-5[data-v-b79eb0f0],
+.history-day.lv-6[data-v-b79eb0f0],
+.history-day.lv-7[data-v-b79eb0f0],
+.history-day.lv-8[data-v-b79eb0f0],
+.history-day.lv-9[data-v-b79eb0f0] {
+	background: none;
+}
+
+.history-day.lv-1[data-v-b79eb0f0]:after,
+.history-day.lv-2[data-v-b79eb0f0]:after,
+.history-day.lv-3[data-v-b79eb0f0]:after,
+.history-day.lv-4[data-v-b79eb0f0]:after,
+.history-day.lv-5[data-v-b79eb0f0]:after,
+.history-day.lv-6[data-v-b79eb0f0]:after,
+.history-day.lv-7[data-v-b79eb0f0]:after,
+.history-day.lv-8[data-v-b79eb0f0]:after,
+.history-day.lv-9[data-v-b79eb0f0]:after {
+	content: url(../Images/Blend-S/Stile/Check.svg);
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	bottom: 2px;
+	right: -6px;
+	color: var(--coffee);
+}
+
+.history-day.lv-8[data-v-b79eb0f0]:after,
+.history-day.lv-9[data-v-b79eb0f0]:after {
+	color: var(--maika-dark);
 }
 
 .favourites[data-v-ddf96a3c] {
