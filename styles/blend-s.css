@@ -34,6 +34,7 @@
 	--coffee: #411c0a;
 
 	--transition-0-5: all 0.5s ease-in-out;
+	--transition-0-25: all 0.25s ease-in-out;
 }
 
 * {
@@ -950,7 +951,8 @@ body {
 	.favourites-wrap
 	> div[data-v-ddf96a3c] {
 	opacity: 0.5;
-	transition: var(--transition-0-5);
+	transition: var(--transition-0-25);
+	outline: 5px solid transparent;
 }
 
 .overview[data-v-5c30286e]
@@ -962,7 +964,8 @@ body {
 	.favourites-wrap
 	> div[data-v-ddf96a3c]:hover {
 	opacity: 1;
-	transition: var(--transition-0-5);
+	transition: var(--transition-0-25);
+	outline: 5px solid var(--maika-dark);
 }
 
 .overview[data-v-5c30286e] .favourites > .favourites-wrap {
