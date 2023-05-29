@@ -870,6 +870,10 @@ body {
 	background: var(--hideri-dark);
 }
 
+.percentage[data-v-63cd3b41]:nth-child(6) .amount {
+	background: var(--service-dark);
+}
+
 .amount[data-v-63cd3b41] {
 	font-size: 1.75rem;
 }
