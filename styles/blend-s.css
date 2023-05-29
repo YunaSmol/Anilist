@@ -951,12 +951,12 @@ body {
 }
 
 .overview .favourites > .favourites-wrap {
-	outline: var(--mafuyu-light);
+	outline: 5px solid var(--mafuyu-light);
 	transition: var(--transition-0-5);
 }
 
 .overview .favourites > .favourites-wrap:hover {
-	outline: var(--mafuyu-dark);
+	outline: 5px solid var(--mafuyu-dark);
 	transition: var(--transition-0-5);
 }
 
