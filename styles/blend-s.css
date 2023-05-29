@@ -870,7 +870,7 @@ body {
 	background: var(--hideri-dark) !important;
 }
 
-.percentage[data-v-63cd3b41]:nth-child(6) .amount {
+.percentage[data-v-63cd3b41]:nth-child(6) {
 	background: var(--service-dark) !important;
 }
 
@@ -906,7 +906,7 @@ body {
 	background: var(--maika-mid) !important;
 	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
 }
-
+.el-tooltip__popper[x-placement^="top"] .popper__arrow,
 .el-tooltip__popper[x-placement^="top"] .popper__arrow:after {
 	border-top-color: var(--maika-mid) !important;
 }
