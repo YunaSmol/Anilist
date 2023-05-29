@@ -835,6 +835,69 @@ body {
 	border-top-color: var(--maika-mid);
 }
 
+.genres[data-v-63cd3b41] {
+	padding: 10px;
+}
+
+.name[data-v-63cd3b41] {
+	padding: 4px 7px 7px;
+	font-size: 1.5rem;
+	margin-bottom: 3px;
+}
+
+.genre[data-v-63cd3b41]:nth-child(1) .name,
+.percentage[data-v-63cd3b41]:nth-child(1) {
+	background: var(--maika-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(2) .name,
+.percentage[data-v-63cd3b41]:nth-child(2) {
+	background: var(--kaho-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(3) .name,
+.percentage[data-v-63cd3b41]:nth-child(3) {
+	background: var(--mafuyu-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(4) .name,
+.percentage[data-v-63cd3b41]:nth-child(4) {
+	background: var(--miu-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(5) .name,
+.percentage[data-v-63cd3b41]:nth-child(5) {
+	background: var(--hideri-dark);
+}
+
+.amount[data-v-63cd3b41] {
+	font-size: 1.75rem;
+}
+
+.genre[data-v-63cd3b41]:nth-child(1) .amount {
+	color: var(--maika-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(2) .amount {
+	color: var(--kaho-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(3) .amount {
+	color: var(--mafuyu-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(4) .amount {
+	color: var(--miu-dark);
+}
+
+.genre[data-v-63cd3b41]:nth-child(5) .amount {
+	color: var(--hideri-dark);
+}
+
+.label[data-v-63cd3b41] {
+	display: none;
+}
+
 .favourites[data-v-ddf96a3c] {
 	margin-top: 60px;
 }
