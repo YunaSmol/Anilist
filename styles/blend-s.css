@@ -746,7 +746,7 @@ body {
 .history-day.lv-7[data-v-b79eb0f0],
 .history-day.lv-8[data-v-b79eb0f0],
 .history-day.lv-9[data-v-b79eb0f0] {
-	background: none;
+	background: url(../Images/Blend-S/Stile/Checkbox.svg);
 }
 
 .history-day.lv-1[data-v-b79eb0f0]:after,
@@ -764,12 +764,12 @@ body {
 	width: 14px;
 	bottom: 2px;
 	right: -6px;
-	fill: var(--coffee);
+	color: var(--coffee);
 }
 
 .history-day.lv-8[data-v-b79eb0f0]:after,
 .history-day.lv-9[data-v-b79eb0f0]:after {
-	fill: var(--maika-dark);
+	color: var(--maika-dark);
 }
 
 .favourites[data-v-ddf96a3c] {
