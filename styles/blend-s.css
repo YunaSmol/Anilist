@@ -950,6 +950,16 @@ body {
 	transition: var(--transition-0-5);
 }
 
+.overview .favourites > .favourites-wrap {
+	outline: var(--mafuyu-light);
+	transition: var(--transition-0-5);
+}
+
+.overview .favourites > .favourites-wrap:hover {
+	outline: var(--mafuyu-dark);
+	transition: var(--transition-0-5);
+}
+
 /* Other */
 
 @media (min-width: 1540px) {
