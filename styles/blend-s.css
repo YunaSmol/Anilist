@@ -902,6 +902,15 @@ body {
 	display: none;
 }
 
+.el-tooltip__popper {
+	background: var(--maika-mid);
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.el-tooltip__popper .popper__arrow:after {
+	border-top-color: var(--maika-mid);
+}
+
 .favourites[data-v-ddf96a3c] {
 	margin-top: 60px;
 }
