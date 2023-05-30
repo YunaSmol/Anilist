@@ -1106,7 +1106,7 @@ body {
 	padding: 0px;
 }
 
-.activity-feed-wrap .section-header .el-dropdown-menu {
+.user .activity-feed-wrap .section-header .el-dropdown-menu {
 	display: flex !important;
 	margin: 0;
 	padding: 0;
