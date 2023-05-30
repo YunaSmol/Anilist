@@ -962,6 +962,7 @@ body {
 	> div[data-v-ddf96a3c] {
 	opacity: 0.5;
 	transition: var(--transition-0-25);
+	border: 0px solid var(--maika-dark);
 }
 
 .overview[data-v-5c30286e]
