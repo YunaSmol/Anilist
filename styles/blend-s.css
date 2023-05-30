@@ -1106,7 +1106,7 @@ body {
 	padding: 0px;
 }
 
-ul#dropdown-menu-4887 {
+.activity-feed-wrap .section-header .el-dropdown-menu {
 	display: flex !important;
 	margin: 0;
 	padding: 0;
@@ -1115,13 +1115,16 @@ ul#dropdown-menu-4887 {
 	overflow: hidden;
 }
 
-ul#dropdown-menu-4887 .el-dropdown-menu__item {
+.activity-feed-wrap .section-header .el-dropdown-menu .el-dropdown-menu__item {
 	padding: 0px;
 	width: 100%;
 	color: var(--maika-dark);
 }
 
-ul#dropdown-menu-4887 .el-dropdown-menu__item:hover {
+.activity-feed-wrap
+	.section-header
+	.el-dropdown-menu
+	.el-dropdown-menu__item:hover {
 	background: var(--maika-dark) !important;
 	color: white;
 }
