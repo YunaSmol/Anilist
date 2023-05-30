@@ -3,6 +3,11 @@
 	src: url(../fonts/Co\ Headline\ Bold.otf);
 }
 
+@font-face {
+	font-family: "yuna-font-2";
+	src: url(../fonts/FRAC-extrabold-webfont.woff.ttf);
+}
+
 :root {
 	--black-text: #431b06;
 	--white-text: #fffcf7;
@@ -736,6 +741,7 @@ body {
 
 .history-day[data-v-b79eb0f0] {
 	background: url(../Images/Blend-S/Stile/Checkbox.svg);
+	border-radius: 0;
 }
 
 .tooltip .circle[data-v-b79eb0f0] {
@@ -925,7 +931,11 @@ body {
 }
 
 .overview[data-v-5c30286e] .favourites[data-v-ddf96a3c] {
-	margin-top: -30px;
+	margin-top: 0px;
+}
+
+.overview[data-v-5c30286e] .favourites > .favourites-wrap {
+	margin-bottom: 0;
 }
 
 .overview[data-v-5c30286e] .favourites.preview .actions[data-v-ddf96a3c] {
@@ -952,7 +962,6 @@ body {
 	> div[data-v-ddf96a3c] {
 	opacity: 0.5;
 	transition: var(--transition-0-25);
-	outline: 5px solid transparent;
 }
 
 .overview[data-v-5c30286e]
@@ -965,17 +974,110 @@ body {
 	> div[data-v-ddf96a3c]:hover {
 	opacity: 1;
 	transition: var(--transition-0-25);
-	outline: 5px solid var(--maika-dark);
+	border: 5px solid var(--maika-dark);
 }
 
-.overview[data-v-5c30286e] .favourites > .favourites-wrap {
-	outline: 5px solid var(--maika-light);
-	transition: var(--transition-0-5);
+/* Overview Stats */
+@media (max-width: 1540px) {
+	.stats-wrap[data-v-5c30286e] {
+		gap: 20px;
+	}
 }
 
-.overview[data-v-5c30286e] .favourites > .favourites-wrap:hover {
-	outline: 5px solid var(--maika-dark);
-	transition: var(--transition-0-5);
+.stat[data-v-815ccddc]:nth-child(2) {
+	display: none;
+}
+
+.stats-wrap[data-v-815ccddc]:hover .stat[data-v-815ccddc]:nth-child(2) {
+	display: block;
+}
+
+.stats-wrap[data-v-815ccddc]:hover .stat[data-v-815ccddc]:nth-child(3) {
+	display: none;
+}
+
+.stats-wrap[data-v-5c30286e] .content-wrap .stat .label {
+	visibility: hidden;
+	position: relative;
+	color: var(--white-text);
+	font-size: 1.5rem;
+	font-family: "yuna-font-2";
+}
+
+.stats-wrap[data-v-5c30286e] .content-wrap .stat .label[data-v-815ccddc]:after {
+	visibility: visible;
+	position: absolute;
+	display: block;
+	top: 2px;
+	text-align: center;
+	width: 100%;
+}
+
+.stats-wrap[data-v-5c30286e]
+	.content-wrap:nth-child(1)
+	.stat:nth-child(1)
+	.label[data-v-815ccddc]:after {
+	content: "Anime";
+}
+
+.stats-wrap[data-v-5c30286e]
+	.content-wrap:nth-child(1)
+	.stat:nth-child(2)
+	.label[data-v-815ccddc]:after {
+	content: "Days";
+}
+
+.stats-wrap[data-v-5c30286e]
+	.content-wrap:nth-child(1)
+	.stat:nth-child(3)
+	.label[data-v-815ccddc]:after {
+	content: "Episodes";
+}
+
+.stats-wrap[data-v-5c30286e]
+	.content-wrap:nth-child(2)
+	.stat:nth-child(1)
+	.label[data-v-815ccddc]:after {
+	content: "Manga";
+}
+
+.stats-wrap[data-v-5c30286e]
+	.content-wrap:nth-child(2)
+	.stat:nth-child(2)
+	.label[data-v-815ccddc]:after {
+	content: "Chapters";
+}
+
+.stats-wrap[data-v-5c30286e]
+	.content-wrap:nth-child(2)
+	.stat:nth-child(3)
+	.label[data-v-815ccddc]:after {
+	content: "Volumes";
+}
+
+.footer[data-v-815ccddc] {
+	display: none;
+}
+
+.overview[data-v-5c30286e] .stats-wrap[data-v-5c30286e] .content-wrap {
+	border: 5px solid var(--maika-light);
+	background: var(--maika-mid);
+}
+
+.stats-wrap[data-v-815ccddc] {
+	grid-template-columns: 151px;
+	padding: 20px 0px;
+}
+
+.stats-wrap[data-v-815ccddc] .stat:nth-child(1) {
+	max-width: 151px;
+	border-right: 5px solid var(--maika-light);
+}
+
+.stat .value[data-v-815ccddc] {
+	color: var(--maika-dark);
+	font-size: 3rem;
+	user-select: none;
 }
 
 /* Other */
