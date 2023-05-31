@@ -1155,6 +1155,16 @@ body {
 	min-height: 38px;
 }
 
+.activity-edit .button.cancel[data-v-c574a71c] {
+	background: var(--maika-light);
+	color: var(--coffee);
+}
+
+.activity-edit .button.save[data-v-c574a71c] {
+	background: var(--maika-dark);
+	color: var(--white-text);
+}
+
 .activity-edit .button.cancel[data-v-c574a71c]:hover {
 	background: var(--maika-dark);
 	color: var(--white-text);
@@ -1168,7 +1178,6 @@ body {
 	transition: var(--transition-0-25);
 }
 
-/* Other */
 .text[data-v-04d66030] .markdown p {
 	line-height: 1.7;
 }
@@ -1176,6 +1185,8 @@ body {
 .reply[data-v-732ef224] .markdown p {
 	line-height: 1.7;
 }
+
+/* Other */
 
 @media (min-width: 1540px) {
 	.nav[data-v-1cc2919e] {
