@@ -54,20 +54,20 @@ body {
 
 /* Sticky Nav */
 
-.site-theme-dark .nav-unscoped.transparent,
-.site-theme-dark .nav-unscoped {
-	background: var(--maika-mid);
-	color: var(--white-text);
-	width: 80%;
-	left: calc((100% - 80%) / 2);
-	border-radius: 0px 0px 15px 15px;
-	border: 5px solid var(--maika-light);
-	border-top: 0;
+.nav-unscoped.transparent,
+.nav-unscoped {
+	background: var(--maika-mid) !important;
+	color: var(--white-text) !important;
+	width: 80% !important;
+	left: calc((100% - 80%) / 2) !important;
+	border-radius: 0px 0px 15px 15px !important;
+	border: 5px solid var(--maika-light) !important;
+	border-top: 0 !important;
 }
 
-.site-theme-dark .nav-unscoped.transparent:hover {
-	background: var(--maika-mid);
-	color: var(--white-text);
+.nav-unscoped.transparent:hover {
+	background: var(--maika-mid) !important;
+	color: var(--white-text) !important;
 }
 
 .logo img[data-v-62eacfff] {
@@ -1208,6 +1208,6 @@ body {
 	}
 }
 
-.site-theme-dark .user-page-unscoped[type="manga"] .content.container {
-	background: none;
+.user-page-unscoped[type="manga"] .content.container {
+	background: none !important;
 }
