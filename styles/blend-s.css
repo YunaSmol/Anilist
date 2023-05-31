@@ -680,6 +680,7 @@ body {
 	background-image: url(../Images/Blend-S/Stile/frame_repeat\ 470px.png);
 	background-repeat: repeat-y;
 	background-size: contain;
+	margin-bottom: 80px;
 }
 
 .about:after {
@@ -1084,6 +1085,8 @@ body {
 /* Activity Feed */
 
 .activity-feed-wrap[data-v-eb51fd0e] {
+	max-height: 1947px;
+	overflow: auto;
 	padding: 20px;
 	border: 5px solid var(--maika-light);
 	border-radius: 15px;
@@ -1130,7 +1133,49 @@ body {
 	color: white;
 }
 
+.activity-edit .markdown-editor {
+	background: var(--maika-dark);
+}
+
+.activity-edit .markdown-editor > div {
+	color: var(--white-text);
+	transition: var(--transition-0-25);
+}
+
+.activity-edit .markdown-editor > div:hover {
+	transform: scale(1.5);
+	transition: var(--transition-0-25);
+}
+
+.activity-edit .input[data-v-c574a71c] .el-textarea__inner {
+	background: var(--cream);
+	color: var(--coffee);
+	font-family: "yuna-font";
+	line-height: 1.7;
+	min-height: 38px;
+}
+
+.activity-edit .button.cancel[data-v-c574a71c]:hover {
+	background: var(--maika-dark);
+	color: var(--white-text);
+	transition: var(--transition-0-25);
+}
+
+.activity-edit .button.save[data-v-c574a71c]:hover {
+	background: var(--maika-dark);
+	transform: scale(1.1);
+	color: var(--coffee);
+	transition: var(--transition-0-25);
+}
+
 /* Other */
+.text[data-v-04d66030] .markdown p {
+	line-height: 1.7;
+}
+
+.reply[data-v-732ef224] .markdown p {
+	line-height: 1.7;
+}
 
 @media (min-width: 1540px) {
 	.nav[data-v-1cc2919e] {
