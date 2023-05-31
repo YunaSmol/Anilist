@@ -657,6 +657,22 @@ body {
 
 /* Overview */
 
+.user .overview ::-webkit-scrollbar {
+	width: 0px;
+}
+
+/* .user .overview ::-webkit-scrollbar-track {
+	background: #f1f1f1 !important;
+}
+
+.user .overview ::-webkit-scrollbar-thumb {
+	background: #888 !important;
+}
+
+.user .overview ::-webkit-scrollbar-thumb:hover {
+	background: #555 !important;
+} */
+
 .about {
 	position: relative;
 	margin-top: 20px;
@@ -1152,7 +1168,6 @@ body {
 	color: var(--coffee);
 	font-family: "yuna-font";
 	line-height: 1.7;
-	min-height: 38px !important;
 }
 
 .activity-edit .button.cancel[data-v-c574a71c] {
