@@ -290,7 +290,7 @@ body {
 	display: none;
 }
 
-.user .overview {
+.user-page-unscoped .content.container > .overview {
 	background: var(--maika-mid);
 	padding: 20px;
 	border: 5px solid var(--maika-light);
@@ -1208,6 +1208,37 @@ body {
 	}
 }
 
-.user-page-unscoped[type="manga"] .content.container {
-	background: none !important;
+.user-page-unscoped[type="anime"] .content.container .medialist {
+	background: var(--kaho-mid);
+	padding: 20px;
+	border: 5px solid var(--kaho-light);
+	margin-top: 0px;
+}
+
+.user-page-unscoped[type="manga"] .content.container .medialist {
+	background: var(--mafuyu-mid);
+	padding: 20px;
+	border: 5px solid var(--mafuyu-light);
+	margin-top: 0px;
+}
+
+.user-page-unscoped .content.container > .favourites {
+	background: var(--miu-mid);
+	padding: 20px;
+	border: 5px solid var(--miu-light);
+	margin-top: 0px;
+}
+
+.user-page-unscoped .content.container > .stats {
+	background: var(--hideri-mid);
+	padding: 20px;
+	border: 5px solid var(--hideri-light);
+	margin-top: 0px;
+}
+
+.user-page-unscoped .content.container > .user-social {
+	background: var(--service-dark);
+	padding: 20px;
+	border: 5px solid var(--service-light);
+	margin-top: 0px;
 }
