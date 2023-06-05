@@ -1250,6 +1250,7 @@ body {
 .actions[data-v-04d66030] {
 	bottom: 1px;
 	left: 10px;
+	width: fit-content;
 }
 
 .actions .action[data-v-04d66030] {
@@ -1271,6 +1272,10 @@ body {
 }
 
 .action.likes .button.liked .fa-heart {
+	color: var(--coffee);
+}
+
+.action.likes .button.liked .fa-heart:hover {
 	color: var(--coffee);
 }
 
