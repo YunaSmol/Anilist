@@ -1204,7 +1204,7 @@ body {
 	grid-template-columns: 105px auto;
 	background: var(--coffee);
 	color: var(--cream);
-	height: 150px;
+	height: 145px;
 	border: 5px solid var(--cream);
 	border-bottom: 0px;
 	border-radius: 15px;
@@ -1219,13 +1219,13 @@ body {
 .activity-entry[data-v-04d66030].activity-manga_list
 	.list.small[data-v-04d66030]
 	a {
-	color: var(--maika-dark);
+	color: var(--maika-dark) !important;
 }
 
 .activity-entry[data-v-04d66030].activity-anime_list
 	.list.small[data-v-04d66030]
 	a {
-	color: var(--maika-light);
+	color: var(--maika-dark);
 }
 
 .activity-entry[data-v-04d66030] .time {
@@ -1248,7 +1248,30 @@ body {
 }
 
 .actions[data-v-04d66030] {
-	bottom: 30px;
+	bottom: 1px;
+	left: 10px;
+}
+
+.actions .action[data-v-04d66030] {
+	padding: 0;
+	margin-right: 5px;
+	color: var(--coffee);
+}
+
+.action.likes .button .fa-heart {
+	stroke: var(--coffee);
+}
+
+.action.likes .button .fa-heart:hover {
+	stroke: var(--coffee);
+}
+
+.action.likes .button .count {
+	color: var(--coffee);
+}
+
+.action.likes .button.liked .fa-heart {
+	color: var(--coffee);
 }
 
 .wrap[data-v-04d66030] {
@@ -1307,6 +1330,40 @@ body {
 .site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow,
 .site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow::after {
 	border-bottom-color: var(--maika-dark);
+}
+
+.text[data-v-04d66030] {
+	background: var(--coffee);
+	color: var(--cream);
+	border: 5px solid var(--cream);
+	border-bottom: 0px;
+	border-radius: 15px;
+}
+
+.activity-entry[data-v-04d66030] .details .status {
+	font-size: 1.4rem;
+}
+
+.activity-entry[data-v-04d66030] .details .status a {
+	display: block;
+}
+
+.list .details[data-v-04d66030] {
+	padding: 10px;
+	padding-right: 10px;
+}
+
+.list.small .entry-dropdown[data-v-04d66030] {
+	top: 5px;
+	left: 5px;
+	border-radius: 50%;
+	background: var(--cream);
+	color: var(--coffee);
+	outline: 3px solid var(--coffee);
+}
+
+.list.small .entry-dropdown[data-v-04d66030] .svg-inline--fa {
+	vertical-align: 0px;
 }
 
 /* Other */
