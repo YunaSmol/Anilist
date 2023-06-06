@@ -1524,6 +1524,10 @@ body {
 	color: var(--maika-dark);
 }
 
+.action.likes .button.liked .fa-heart {
+	color: var(--coffee);
+}
+
 /* Other */
 
 @media (min-width: 1540px) {
