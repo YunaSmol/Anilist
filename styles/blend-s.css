@@ -1439,6 +1439,12 @@ body {
 	right: 50px;
 }
 
+.reply[data-v-732ef224] {
+	background: var(--cream);
+	border-radius: 45px;
+	color: var(--coffee);
+}
+
 .activity-replies[data-v-2820a6bb] .reply .header {
 	background: var(--coffee);
 	width: fit-content;
