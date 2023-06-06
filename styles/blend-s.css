@@ -1278,11 +1278,8 @@ body {
 	color: var(--coffee);
 }
 
-.action.likes .button.liked .fa-heart {
-	color: var(--coffee);
-}
-
-.action.likes .button.liked .fa-heart:hover {
+.action.likes .button.liked:hover .fa-heart,
+.like-wrap.thread_comment .button.liked:hover .fa-heart {
 	color: var(--coffee);
 }
 
@@ -1376,6 +1373,149 @@ body {
 
 .list.small .entry-dropdown[data-v-04d66030] .svg-inline--fa {
 	vertical-align: 0px;
+}
+
+.users[data-v-5fb0ec91] {
+	display: none !important;
+}
+
+.activity-entry[data-v-04d66030] {
+	margin-left: 15px;
+}
+
+.activity-entry[data-v-04d66030] .wrap[data-v-04d66030] {
+	overflow: visible;
+	z-index: 1;
+}
+
+.activity-entry[data-v-04d66030] .wrap[data-v-04d66030]:before {
+	content: "";
+	display: block;
+	height: 83%;
+	width: 50px;
+	border: 13px solid var(--cream);
+	border-radius: 15px;
+	position: absolute;
+	left: -25px;
+	top: calc(15% - 10px);
+	z-index: -1;
+}
+
+.activity-entry[data-v-04d66030] {
+	margin-left: 15px;
+}
+
+.activity-entry[data-v-04d66030] .text .header[data-v-04d66030] {
+	background: var(--cream);
+	width: fit-content;
+	padding: 10px;
+	border-radius: 15px;
+	border: 10px solid var(--coffee);
+	outline: 5px solid var(--cream);
+	border-style: double;
+}
+
+.text .avatar[data-v-04d66030] {
+	border-radius: 50%;
+	border: 5px solid var(--coffee);
+	border-style: double;
+	outline: 1px solid var(--coffee);
+}
+
+.text .name[data-v-04d66030] {
+	color: var(--coffee);
+}
+
+.text .header[data-v-04d66030] > div {
+	background: var(--cream);
+	color: var(--coffee);
+	border: 5px solid var(--coffee);
+	border-style: double;
+	outline: 1px solid var(--coffee);
+}
+
+.text .header[data-v-04d66030] > div.has-label[data-v-04d66030]:before {
+	top: -50px;
+	right: 50px;
+}
+
+.activity-replies[data-v-2820a6bb] .reply .header {
+	background: var(--coffee);
+	width: fit-content;
+	padding: 10px;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.activity-replies[data-v-2820a6bb] .reply .header a {
+	color: var(--cream);
+}
+
+.activity-replies[data-v-2820a6bb] .reply .header a.avatar {
+	border: 5px solid var(--cream);
+	border-radius: 50%;
+	border-style: double;
+	height: 50px;
+	width: 50px;
+}
+
+.activity-replies[data-v-2820a6bb] .reply .header .actions[data-v-732ef224] {
+	display: flex;
+	align-items: center;
+}
+
+.reply .time.action[data-v-732ef224] {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+}
+
+.reply .action.time .action[data-v-732ef224] {
+	border: 3px solid var(--cream);
+	padding: 3px;
+	border-style: double;
+	border-radius: 5px;
+	transition: var(--transition-0-25);
+}
+
+.reply .action.time .action[data-v-732ef224]:hover {
+	transform: scale(1.1);
+	transition: var(--transition-0-25);
+}
+
+.reply .time.action[data-v-732ef224] span svg {
+	position: absolute;
+	visibility: hidden !important;
+}
+
+.reply .time.action[data-v-732ef224] span::after {
+	content: "Delete";
+	position: relative;
+	display: block;
+}
+
+.reply:hover .time .action[data-v-732ef224] {
+	background: var(--coffee);
+	color: var(--cream);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.activity-replies[data-v-2820a6bb] .reply .reply-markdown {
+	margin: 10px 30px 0px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.markdown a,
+.markdown a {
+	color: var(--maika-mid);
+}
+
+.markdown a,
+.markdown a:visited {
+	color: var(--maika-dark);
 }
 
 /* Other */
