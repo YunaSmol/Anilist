@@ -1528,6 +1528,98 @@ body {
 	color: var(--coffee);
 }
 
+.load-more[data-v-6f203cf2] {
+	position: relative;
+	background: var(--coffee);
+	outline: 5px solid var(--cream);
+	padding: 20px 0px;
+	color: var(--cream);
+}
+
+.load-more[data-v-6f203cf2]:hover {
+	color: var(--maika-dark);
+}
+
+.load-more[data-v-6f203cf2]:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 101%;
+	height: 60px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid var(--cream);
+	border-radius: 0px;
+	transition: var(--transition-0-5);
+}
+
+.load-more[data-v-6f203cf2]:hover:before {
+	width: 75%;
+	height: 40px;
+	border-radius: 15px;
+	border-style: dotted;
+	transition: var(--transition-0-5);
+}
+
+.markdown .markdown-spoiler:before {
+	background: var(--cream);
+	color: var(--coffee);
+	border: 5px solid var(--coffee);
+	border-style: double;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.markdown .markdown-spoiler.spoiler-visible span {
+	background: var(--cream);
+	color: var(--coffee);
+	padding: 5px;
+}
+
+.activity-replies[data-v-2820a6bb]
+	.reply
+	.reply-markdown
+	.markdown-spoiler.spoiler-visible
+	span {
+	background: var(--coffee);
+	color: var(--cream);
+}
+
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {
+	color: var(--maika-dark);
+	right: -3px;
+	top: -7px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5 {
+	color: var(--cream);
+}
+
+.activity-replies[data-v-2820a6bb] .reply .markdown h1,
+.activity-replies[data-v-2820a6bb] .reply .markdown h2,
+.activity-replies[data-v-2820a6bb] .reply .markdown h3,
+.activity-replies[data-v-2820a6bb] .reply .markdown h4,
+.activity-replies[data-v-2820a6bb] .reply .markdown h5 {
+	color: var(--coffee);
+}
+
+.markdown blockquote {
+	background: var(--cream);
+	color: var(--coffee);
+	border-color: var(--maika-dark);
+}
+
+.activity-replies[data-v-2820a6bb] .reply .markdown blockquote {
+	background: var(--coffee);
+	color: var(--cream);
+	border-color: var(--maika-dark);
+}
+
 /* Other */
 
 @media (min-width: 1540px) {
